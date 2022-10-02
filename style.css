@@ -1,0 +1,189 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: Cursed;
+}
+
+body {
+    margin:0;
+    background-color: #374151;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#first-box {
+    background-color: #162950;
+    color: #ffff;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 70px auto;
+    border: 6px solid white;
+    margin-bottom: 0;
+
+}
+
+#time {
+    margin:0;
+    width: auto;
+    height: 70px;
+    color: #F59E0B;
+    border: 4px solid white;
+    border-top: none;
+    background-color: black;
+    font-size: 80px;
+    font-family: Cursed;
+}
+
+#period {
+    margin: 0;
+    font-family: Cursed;
+    color: green;
+    font-size: 60px;
+    background-color: black;
+    width: 45px;
+    height: 55px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+
+.child-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 35px;
+}
+
+.second-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.points {
+    color: #BE1B0F;
+    width: auto;
+    height: 90px;
+    margin: 10px auto;
+    font-size: 100px;
+    font-family: Cursed;
+    background-color: black;
+    border: 4px solid white;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.btn {
+    width: 35px;
+    height: 35px;
+    color: white;
+    background-color: #162950;
+    border: 2px dashed white;
+    border-radius: 5px;
+    margin: 10px 7px;
+    font-family: Cursed;
+}
+
+.btn:hover {
+    background-color:#4B5563;
+}
+
+.btn:active {
+    background-color:#0C4A6E;
+}
+
+#main-box {
+    display: flex;
+    flex-direction: column;
+}
+
+#second-box {
+    margin: 0 auto;
+    background-color: #162950;
+    color: #ffff;
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 6px solid white;
+    border-top: none;
+
+}
+
+#second-box p {
+    border: 2px solid white;
+    margin:auto 20px;
+    font-size: 50px;
+    font-family: Cursed ;
+    color: green ;
+    padding:0;
+    background-color: black;
+    height: 45px;
+    
+}
+
+.fouls-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.fouls-box button {
+    margin-top: 0;
+
+}
+
+.fouls-box div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#extra-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+#reset-btn {
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    color:#BE1B0F;
+    background-color: #162950;
+    border: 2px dashed red;
+    border-radius: 5px;
+    margin: 20px 70px 20px 70px;
+    font-family: Cursed;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color:#4B5563;
+}
+
+#reset-btn:active {
+    background-color:#0C4A6E;
+}
+
+#start-btn {
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    color:green;
+    background-color: #162950;
+    border: 2px dashed green;
+    border-radius: 5px;
+    margin: 20px 70px 0px 70px;
+    font-family: Cursed;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    background-color:#4B5563;
+}
+
+#start-btn:active {
+    background-color:#0C4A6E;
+}
