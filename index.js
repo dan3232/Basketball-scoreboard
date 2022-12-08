@@ -62,13 +62,16 @@ function pad(value) {
     }
 }
 
+let myInterval;
+
 function startGame() {
     newGame()
     startBtn.disabled = true
-    setInterval(setTime, 1000)
+    myInterval = setInterval((setTime), 1000);
 }
 
 function newGame() {
+    clearInterval(myInterval);
     totalSeconds = 0;
     pointsHome = 0;
     pointsGuest = 0;
@@ -80,4 +83,7 @@ function newGame() {
     period.textContent = pointsPeriod;
     foulsHome.textContent = pointsFoulsHome;
     foulsGuest.textContent = pointsFoulsGuest;
+    seconds.innerHTML = "00";
+    minutes.innerHTML = "00";
+    startBtn.disabled = false;
 }
